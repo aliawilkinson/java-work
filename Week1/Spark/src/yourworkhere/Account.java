@@ -1,6 +1,6 @@
 package yourworkhere;
 
-public class Account {
+public abstract class Account {
 	public static void main(String[] args) {
 		String accountID;
 
@@ -14,15 +14,15 @@ public class Account {
 	}
 	//marking variables private
 	
-	private String accountID;
+	protected String accountID;
 	
-	private double balance;
+	protected double balance;
 
-	private String accountType;
+	protected String accountType;
 
-	private String firstName;
+	protected String firstName;
 
-	private String lastName;	
+	protected String lastName;	
 	
 	//getter
 	public String getAccountID(){
