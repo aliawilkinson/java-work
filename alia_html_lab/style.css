@@ -1,0 +1,24 @@
+/* Change the background color of <div> elements to your choice of color*/
+div{
+    background-color: aliceblue;
+    width: 80vw;
+    margin: 2vh auto;
+    border: 2px solid black;
+    padding: 1em;
+}
+/* Change the text color of <p> elements to your choice of color */
+p{
+    color: rgb(82, 80, 80);
+}
+/* Change the font-size of <li> elements to 16pt. */
+li{
+    font-size: 16pt;
+}
+/* Change the font of <li> elements placed inside an ordered list (<ol>) to Courier or some other fixed-width font */
+ol > li {
+    font-family: 'Times New Roman', Times, serif; 
+}
+/* Change the font of <li> elements placed inside an unordered list (<ul>) to Arial or some other sans-serif font. */ 
+ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
