@@ -22,3 +22,8 @@ ol > li {
 ul li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/*width and float properties to create columns*/
+div.column{
+    width: 48%;
+    float: left;
+}

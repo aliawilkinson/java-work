@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fibonacci</title>
+    <script>
+        var step = 8;
+
+        function fibonacci(pos) {
+            if (pos === 1)
+                return 0;
+            if (pos === 2)
+                return 1;
+
+            var twoBefore = 0;
+            var oneBefore = 1;
+            var current = 0;
+
+            for (i = 3; i <= pos; i++) {
+                current = twoBefore + oneBefore;
+                twoBefore = oneBefore;
+                oneBefore = current;
+            }
+
+            return current;
+        }
+        alert("position " + step + " of the fibonacci sequence is " + fibonacci(step));
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
